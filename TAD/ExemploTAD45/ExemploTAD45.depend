@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1554386337 source:c:\users\vinic\desktop\universo\ed2\c\tad\exemplotad45\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Data.h"
+
+1554386554 source:c:\users\vinic\desktop\universo\ed2\c\tad\exemplotad45\data.c
+	"Data.h"
+	<stdio.h>
+	<stdlib.h>
+
+1554384798 c:\users\vinic\desktop\universo\ed2\c\tad\exemplotad45\data.h
+

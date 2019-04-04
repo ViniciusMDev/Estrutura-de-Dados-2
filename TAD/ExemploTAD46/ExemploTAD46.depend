@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1554388958 source:c:\users\vinic\desktop\universo\ed2\c\tad\exemplotad46\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cubo.h"
+
+1554388638 source:c:\users\vinic\desktop\universo\ed2\c\tad\exemplotad46\cubo.c
+	"Cubo.h"
+	<stdio.h>
+	<stdlib.h>
+
+1554388490 c:\users\vinic\desktop\universo\ed2\c\tad\exemplotad46\cubo.h
+
