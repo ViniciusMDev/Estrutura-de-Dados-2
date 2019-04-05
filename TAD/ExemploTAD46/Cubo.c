@@ -2,18 +2,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-    Cubo criaCubo(float a1, float a2, float a3){
+    Cubo criaCubo(float a){
         Cubo c;
-        c.a1 = a1;
-        c.a2 = a2;
-        c.a3 = a3;
+        c.a = a;
         return c;
     }
 
     float volumeCubo(Cubo c){
-        return c.a1 * c.a2 * c.a3;
+        return pow(c.a, 3));
     }
 
     float areaCubo(Cubo c){
-        return 6*(c.a1*c.a2);
+        return 6 * (pow(c.a, 2));
     }
