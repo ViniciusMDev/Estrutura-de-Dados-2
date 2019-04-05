@@ -4,16 +4,12 @@
 
 int main()
 {
-    float area1, area2, area3;
+    float area;
     Cubo c;
-    printf("Digite o valor da area 1: ");
-    scanf("%f", &area1);
-    printf("Digite o valor da area 2: ");
-    scanf("%f", &area2);
-    printf("Digite o valor da area 3: ");
-    scanf("%f", &area3);
+    printf("Digite o valor da area: ");
+    scanf("%f", &area);
 
-    c = criaCubo(area1,area2,area3);
+    c = criaCubo(area);
 
     printf("O volume do cubo e %.2f: ", volumeCubo(c));
     printf("\nA area total do cubo e %.2f: ", areaCubo(c));
