@@ -3,11 +3,11 @@
 
 
     typedef struct cubo{
-    float a1, a2, a3;
+    float a;
 
     }Cubo;
 
-    Cubo criaCubo(float a1, float a2, float a3);
+    Cubo criaCubo(float a);
 
     float volumeCubo (Cubo cubo);
 
