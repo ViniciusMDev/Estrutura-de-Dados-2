@@ -16,7 +16,7 @@
     }
 
     void eBissexto(Data data){
-        if(data.ano % 4 == 0 && (data.ano % 100 !=0 || data.ano % 400 == 0)){
+        if(data.ano % 4 == 0 || (data.ano % 100 !=0 && data.ano % 400 == 0)){
             printf("O ano e bissexto");
         }
         else{
